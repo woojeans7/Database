@@ -1,0 +1,3 @@
+Field,Type,Null,Key,Default,Extra
+dept_no,char(4),NO,PRI,NULL,
+dept_name,varchar(40),NO,UNI,NULL,

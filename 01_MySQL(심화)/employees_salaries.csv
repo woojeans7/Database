@@ -1,0 +1,5 @@
+Field,Type,Null,Key,Default,Extra
+emp_no,int,NO,PRI,NULL,
+salary,int,NO,,NULL,
+from_date,date,NO,PRI,NULL,
+to_date,date,NO,,NULL,
