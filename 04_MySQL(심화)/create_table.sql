@@ -6,7 +6,7 @@ stdName    VARCHAR(10) NOT NULL PRIMARY KEY,
 addr CHAR(4) NOT NULL
 );
 CREATE TABLE clubtbl ( 
-clubName    VARCHAR(10) NOT N	LL PRIMARY KEY,
+clubName    VARCHAR(10) NOT NULL PRIMARY KEY,
 roomNo    CHAR(4) NOT NULL
 );
 CREATE TABLE stdclubtbl(  
