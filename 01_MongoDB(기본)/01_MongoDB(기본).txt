@@ -1,0 +1,38 @@
+1. use tutorial
+2. db.users.insertOne({username:"smith"})
+3. db.users.insertOne({username:"jones"})
+4. db.users.find()
+5. db.users.findOne()
+6. db.users.find({username:"jones"})]
+7. db.users.find({$or:[{username:"smith"},{username:"jones"}]})
+8. db.users.update({username: "smith"}, {$set: {country: "Canada"}})
+9. db.users.find({username:"smith"})
+10. db.users.update({username:"smith"},{country:"Canada"})
+	db.users.find({country: "Canada"})
+11. db.users.update({country:"Canada"},{$set:{username:"smith", country:"Canada"}})
+	db.users.find({username:"smith"})
+12. db.users.update({username: "smith"}, {$unset: {country: 1}})
+	db.users.find({username:"smith"})
+13. show dbs
+14. show collections 
+15. db.stats()
+	db.users.stats()
+16. db.users.remove({username:"smith"})
+	db.users.find({username:"smith"})
+17. db.users.remove({})
+	db.users.find()
+18. db.users.drop()
+19. use test 
+	for(let i=0; i<20000; i++){
+	db.product.insert({
+		num: i,
+		name: '스마트폰' + i
+	})
+}
+20. db.product.count();
+21. db.product.find().sort({num: -1});
+22. db.product.find().sort({num: -1}).limit(10);
+23. db.product.find().sort({num: -1}).skip(10*(6-1)).limit(10);
+24. db.product.find({ $or:[{num: {$lt: 15}},{num: {$gt: 19995}},]});
+25. db.product.find({name:{$in:['스마트폰10','스마트폰100','스마트폰1000']}})
+26. db.product.find({num:{$lt:5}},{_id:0, name:1})
