@@ -15,12 +15,12 @@ KB IT's Your Life 수업에서 푼 문제들 모음 2025.05.12-2025.05.28
 | 04 SQL 고급                                   |  04_mysql   |  ✅  |  ✅  |
 | 05 테이블, 뷰                                 |  05_mysql   |  ✅  |  🆇   |
 | 06 인덱스, 사용자 관리                        |  06_mysql   |  ✅  |  🆇   |
-| 07 Java 연동 JDBC 프로그래밍                  |  07_mysql   |  ✅  |  🆇   |
+| 07 Java 연동 JDBC 프로그래밍                  |  07_mysql   |  ✅  |  ✅  |
 | 08 Java 연동 JDBC 프로그래밍-Travel           |  08_mysql   |  🆇   |  🆇   |
 
 ## 02 NoSQL 기반 MongoDB
 
 | 항목               | 디렉토리 명 | 기본 | 심화 |
 | ------------------ | :---------: | :--: | :--: |
-| 01 MongoDB         |  01_mongo   |  🆇   |  🆇   |
+| 01 MongoDB         |  01_mongo   |  ✅  |  🆇   |
 | 02 몽고DB Java연동 |  02_mongo   |  🆇   |  🆇   |
