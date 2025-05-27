@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.scoula'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // 수업시 사용했던 프로젝트 build.gradle 파일에다음과같이추가하세요.
+    implementation 'ch.qos.logback:logback-classic:1.2.11'
+    implementation 'org.mongodb:mongodb-driver-sync:5.0.0'
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
