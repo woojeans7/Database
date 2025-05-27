@@ -14,10 +14,10 @@ public class JDBCUtil {
             properties.load(JDBCUtil.class.getResourceAsStream("/application.properties"));
             String driver = properties.getProperty("driver");
             String url = properties.getProperty("url");
-            String id = properties.getProperty("id");
+            String username = properties.getProperty("username");
             String password = properties.getProperty("password");
             Class.forName(driver);
-            conn = DriverManager.getConnection(url, id, password);
+            conn = DriverManager.getConnection(url, username, password);
         } catch (Exception e) {
             e.printStackTrace();
         }
