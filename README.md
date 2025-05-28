@@ -16,7 +16,7 @@ KB IT's Your Life 수업에서 푼 문제들 모음 2025.05.12-2025.05.28
 | 05 테이블, 뷰                                 |  05_mysql   |  ✅  |  ✅  |
 | 06 인덱스, 사용자 관리                        |  06_mysql   |  ✅  |  ✅  |
 | 07 Java 연동 JDBC 프로그래밍                  |  07_mysql   |  ✅  |  ✅  |
-| 08 Java 연동 JDBC 프로그래밍-Travel           |  08_mysql   |  🆇   |  🆇   |
+| 08 Java 연동 JDBC 프로그래밍-Travel           |  08_mysql   |  ✅  |  🆇   |
 
 ## 02 NoSQL 기반 MongoDB
 
