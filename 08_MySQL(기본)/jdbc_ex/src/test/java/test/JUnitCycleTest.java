@@ -1,4 +1,4 @@
-package org.scoula.jdbc_ex.test;
+package test;
 
 import org.junit.jupiter.api.*;
 

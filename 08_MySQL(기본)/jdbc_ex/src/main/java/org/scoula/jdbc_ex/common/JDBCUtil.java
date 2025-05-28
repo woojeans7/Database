@@ -1,4 +1,4 @@
-package org.scoula.database;
+package org.scoula.jdbc_ex.common;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
