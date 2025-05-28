@@ -1,0 +1,30 @@
+use test
+1. db.users.insertOne({username: "smith"})
+
+2. db.users.updateOne({username:"smith"},{$set:{favorites:{cities:["Chicago","Cheyenne"], movies:["Casablanca","For a Few Dollars More", "The Sting"]}}})
+
+3. db.users.insertOne({username: "jones"})
+
+4. db.users.update({username:"jones"},{$set:{favorites:{movies:["Casablanca","Rocky"]}}})
+
+5. db.users.find({"favorites.movies": "Casablanca"}).pretty()
+
+6. db.users.updateMany( {"favorites.movies": "Casablanca"},
+{$addToSet: {"favorites.movies": "The Maltese Falcon"} },
+{upsert: false} )
+
+7. for(let i=0;i<20000;i++){
+	db.numbers.insert({num:i});
+}
+
+8. db.numbers.count()
+
+9. db.numbers.find({num: {"$gte": 20, "$lte": 25 }})
+
+10. db.numbers.find({num: {"$gte": 20, "$lte": 25 }}).explain("executionStats")
+
+11. db.numbers.ensureIndex({num: 1})
+
+12. db.numbers.getIndexes()
+
+13. db.numbers.find({num: {"$gte": 20, "$lte": 25 }}).explain("executionStats")
